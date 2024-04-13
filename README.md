@@ -13,7 +13,7 @@ Run D:\express-development\express-welcome>node express_example1.js
 <br>
 Open the page http://localhost:8000/index.html and fill the entries:
 <br>
-Now, you get the data in JSON format.
+Now, you get the data in JSON format. In latest code added email and city in index.html
 <br>
 ![image](https://github.com/sathees-saty/express-GET-JSON/assets/65384711/9c040fdd-bd1b-4c36-a486-4a5562256cdf)
 
