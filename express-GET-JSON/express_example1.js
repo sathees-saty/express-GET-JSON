@@ -8,7 +8,9 @@ app.get('/index.html', function (req, res) {
 app.get('/process_get', function (req, res) {  
 response = {  
        first_name:req.query.first_name,  
-       last_name:req.query.last_name  
+       last_name:req.query.last_name,
+       email:req.query.email,
+       city:req.query.city  
    };  
    console.log(response);  
    res.end(JSON.stringify(response));  
